@@ -4,13 +4,20 @@
 
 ## Some example usage:
 ```
-function DemoPage(props) {
+function AppPage(props) {
   return (
-    <div>Page ID {props.id} & current URL is {props.currentLocation}</div>
+    <div>Main app page</div>
+  )
+}
+
+function AboutPage(props) {
+  return (
+    <div>About page: ID {props.id} & current URL is {props.currentLocation}</div>
   )
 }
 
 <Routes>
-  <Route path='/app' component={DemoPage} routeProps={{ id: 12 }}></CRoute>
+  <Route path='/app' component={AppPage} />
+  <Route path='/about' component={AboutPage} routeProps={{ id: 12 }} />
 </Routes>
 ```
