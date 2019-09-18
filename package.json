@@ -1,0 +1,60 @@
+{
+  "name": "@joduplessis/conductor",
+  "title": "Conductor",
+  "keywords": [
+    "Conductor"
+  ],
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "sideEffects": [
+    "lib/*"
+  ],
+  "pre-commit": [],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "files": [
+    "lib"
+  ],
+  "browserslist": [
+    "last 2 version",
+    "Firefox ESR",
+    "> 1%",
+    "ie >= 9"
+  ],
+  "bugs": {
+    "url": ""
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "joduplessis"
+    }
+  ],
+  "deprecated": false,
+  "version": "0.0.0",
+  "description": "Painless React routing",
+  "scripts": {
+    "test": "",
+    "dev": "tsc -w -p tsconfig.json",
+    "build": "tsc -p tsconfig.json",
+    "lint": "tslint --project ./"
+  },
+  "author": "Jo du Plessis",
+  "license": "MIT",
+  "peerDependencies": {},
+  "dependencies": {
+    "@joduplessis/keg": "git+https://github.com/joduplessis/keg.git",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "ts-loader": "^6.0.4",
+    "tslint": "^5.18.0",
+    "tslint-loader": "^3.5.4",
+    "typescript": "^3.5.3"
+  }
+}
