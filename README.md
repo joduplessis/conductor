@@ -9,7 +9,7 @@ import { Routes, Route, navigate } from '@joduplessis/conductor'
 
 function AppPage(props) {
   return (
-  	<React.Fragment>
+    <React.Fragment>
       <div>Main app page</div>
       <button onClick={() => navigate('/about')}>Go to about page</button>
     </React.Fragment>
