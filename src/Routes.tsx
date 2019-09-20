@@ -11,7 +11,7 @@ export const Routes: React.FunctionComponent<IRoutesProps> = (props: IRoutesProp
 
   // Receive hashhistory update via Keg
   // Comes from the navigate function
-  Keg.keg('location').tap('update', async (val: any, pour: any) => {
+  Keg.keg('conductor').tap('conductor', async (val: any, pour: any) => {
     setCurrentLocation(val)
     pour()
   });

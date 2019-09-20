@@ -9,7 +9,7 @@ function navigate(location: string)  {
 
   // Notify our routes of the change
   // This will trigger context update to the other comopnents
-  Keg.keg('location').refill('update', location)
+  Keg.keg('conductor').refill('location', location)
 }
 
 export {
