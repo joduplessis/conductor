@@ -17,16 +17,17 @@
   "files": [
     "lib"
   ],
+  "repository": "https://github.com/joduplessis/conductor",
+  "bugs": {
+    "url": "https://joduplessis.com",
+    "email": "jo@joduplessis.com"
+  },
   "browserslist": [
     "last 2 version",
     "Firefox ESR",
     "> 1%",
     "ie >= 9"
   ],
-  "bugs": {
-    "url": ""
-  },
-  "bundleDependencies": false,
   "contributors": [
     {
       "name": "joduplessis"
@@ -45,7 +46,7 @@
   "license": "MIT",
   "peerDependencies": {},
   "dependencies": {
-    "@joduplessis/keg": "git+https://github.com/joduplessis/keg.git",
+    "@joduplessis/keg": "^0.0.0",
     "@types/react": "^16.9.2",
     "@types/react-dom": "^16.9.0",
     "react": "^16.9.0",
