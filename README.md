@@ -1,5 +1,3 @@
-<img src="https://joduplessis-keg.s3-us-west-2.amazonaws.com/barrel.svg" width="90" height="90">
-
 # Conductor
 
 > Conductor is a straightforward routing library for React using browser pushState, with type support too. Still under development, do not use in production.
