@@ -7,6 +7,8 @@
 npm i --save @joduplessis/conductor
 ```
 
+Or you can use the [Yoeman Generator](https://github.com/joduplessis/generator-joduplessis-conductor)
+
 ## Some example usage:
 ```
 import React, { useEffect } from 'react'
