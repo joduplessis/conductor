@@ -7,13 +7,13 @@ interface IRoutesProps {
 }
 
 export const Routes: React.FunctionComponent<IRoutesProps> = (props: IRoutesProps) => {
-  const [currentLocation, setCurrentLocation] = React.useState('/')
+  const [currentLocation, setCurrentLocation] = React.useState('/');
 
   // Receive hashhistory update via Keg
   // Comes from the navigate function
-  Keg.keg('conductor').tap('conductor', async (val: any, pour: any) => {
-    setCurrentLocation(val)
-    pour()
+  Keg.keg('conductor').tap('location', async (val: any, pour: any) => {
+    setCurrentLocation(val);
+    pour();
   });
 
   return (
