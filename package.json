@@ -34,7 +34,7 @@
     }
   ],
   "deprecated": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Painless React routing",
   "scripts": {
     "test": "",
@@ -46,7 +46,7 @@
   "license": "MIT",
   "peerDependencies": {},
   "dependencies": {
-    "@joduplessis/keg": "^0.0.0",
+    "@joduplessis/keg": "^0.0.2",
     "@types/react": "^16.9.2",
     "@types/react-dom": "^16.9.0",
     "react": "^16.9.0",
